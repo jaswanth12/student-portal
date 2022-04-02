@@ -1,0 +1,57 @@
+.studentCompleteData{
+	padding: 20px;
+	display: flex;
+}
+.studentCompleteData img{
+	width: 200px;
+	height: auto;
+	
+}
+
+.studentCompleteData >div{
+	display: inline-block;
+}
+
+.studentCompleteData >div+div{
+	display: inline-block;
+}
+
+.studentCompleteData>div{
+	padding-right: 30px;
+}
+
+
+
+
+.studentCompleteData .details{
+	margin-bottom: 10px;
+	display:inline;
+}
+.studentCompleteData.heading .details span{
+	color: ;
+	background-color: #DDD;
+}
+
+
+.studentCompleteData .details span{
+	border: 1px solid black;
+    width: 10%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-right: 0px;
+    display: inline-block;
+}
+.studentCompleteData .details span:nth-last-child(1){
+	border-right: 1px solid black;
+}
+.studentCompleteData .semesterMarks .eachSemesterMarks{
+	display: inline-block;
+	border: 1px solid #1F2833;
+	padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.studentCompleteData .semesterMarks .eachSemesterMarks span{
+	margin-right: 15px;
+}

@@ -1,0 +1,29 @@
+.header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #2f4f4f;
+	background: #2b8ead;
+	color: white;
+	padding: 22px 25px;
+}
+.header div{
+	display: flex;
+}
+.header h1{
+	margin: 0px;
+}
+
+
+.header div p{
+	margin-right: 20px;
+	margin-bottom: 0px
+}
+
+.header button{
+	background-color: transparent;
+	border: 1px solid white;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 5px;
+}

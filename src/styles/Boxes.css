@@ -1,0 +1,31 @@
+.Boxes{
+	display: flex;
+}
+.Boxes div{
+	margin-right: 20px;
+	padding: 15px;
+	border: 1px solid black;
+	min-width: 130px;
+	padding-bottom: 60px;
+	position: relative;
+}
+
+.Boxes div p+button{
+	position: absolute;
+	bottom: 5px;
+	left: 25%;	
+}
+
+.Boxes div p{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0px;
+	align-items: center;
+}
+.Boxes div .cross{
+	background: transparent;
+    border: none;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}

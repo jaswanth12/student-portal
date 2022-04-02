@@ -1,0 +1,14 @@
+.filter{
+	background-color: #E07C24;
+	border: none;
+	padding: 5px 20px;
+	margin: 15px;
+	margin-bottom: 0px;
+	border-radius: 8px;
+	color: white;
+	border: 1px solid white;
+}
+.filter option{
+	background-color: white !important;
+	color: black !important;
+}

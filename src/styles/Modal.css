@@ -1,0 +1,44 @@
+.backgroundoverlay{
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: rgba(0,0,0,0.5);
+	z-index: 1;
+}
+.modaloverlay{
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+	z-index: 10;
+	min-width: 200px;
+	min-height: 200px;
+	width: 55%;
+	padding: 20px;
+	background-color: white;
+}
+.modaloverlay>div{
+	position: relative;
+}
+
+.showmodal{
+	background: transparent;
+	border: none;
+}
+.closemodal{
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: transparent;
+	border: none;
+	background-color: #2f4f4f;
+	color: white;
+	border-radius: 15px;
+	border: none;
+	padding: 8px 14px;
+	background-color: #FF4500;
+	box-shadow: 0 2px rgba(0,0,0,0.2);
+	float: right;
+}
